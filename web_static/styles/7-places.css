@@ -46,6 +46,20 @@ div.amenities {
 	opacity: 1;
 	transition: opacity 0.3s ease-in-out;
 }
+h3 {
+	margin-bottom: 0;
+}
+h4 {
+	margin-top: 0;
+}
+.filters h2 {
+	margin-bottom: 0;
+}
+.places h1 {
+	font-size: 30px;
+	padding-left: 1%;
+	text-align: left;
+}
 .filters button:hover {
 	opacity: 0.9;
 }
@@ -55,11 +69,16 @@ div.amenities {
 	border-radius: 4px;
 	display: none;
 	list-style-type: none;
+	position: relative;
+	z-index: 2;
 }
 .filters .popover li {
 	list-style-type: none;
 }
 .locations:hover .popover {
+	display: block;
+}
+.amenities:hover .popover {
 	display: block;
 }
 .amenities .popover {
@@ -70,15 +89,19 @@ div.amenities {
 .locations .popover {
 	padding-bottom: 30px;
 }
-.amenities:hover .popover {
-	display: block;
+.places {
+	width: 100%;
 }
-h3 {
-	margin-bottom: 0;
+.places article{
+	display: flex;
+	width: 100%;
+	align-items: center;
 }
-h4 {
-	margin-top: 0;
-}
-h2 {
-	margin-bottom: 0;
+.places h2 {
+	font-size: 30px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
+	text-align: center;
 }
