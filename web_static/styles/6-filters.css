@@ -49,3 +49,33 @@ div.amenities {
 .filters button:hover {
 	opacity: 0.9;
 }
+.popover {
+	background-color: #FAFAFA;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	display: none;
+	list-style-type: none;
+}
+.filters .popover li {
+	list-style-type: none;
+}
+.locations:hover .popover {
+	display: block;
+}
+.amenities .popover {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.locations .popover {
+	padding-bottom: 30px;
+}
+.amenities:hover .popover {
+	display: block;
+}
+h3 {
+	margin-bottom: 0;
+}
+h4 {
+	margin-top: 0;
+}
+

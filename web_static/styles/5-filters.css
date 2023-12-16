@@ -49,3 +49,9 @@ div.amenities {
 .filters button:hover {
 	opacity: 0.9;
 }
+h3 {
+	margin-bottom: 0;
+}
+h4 {
+	margin-top: 0;
+}
