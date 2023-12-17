@@ -53,15 +53,15 @@
 	min-height: 80px;
 }
 .max_guest {
-	background-image: url("images/group.png");
+	background-image: url("web_static\images\group.png");
 	background-repeat: no-repeat;
 }
 .number_bathrooms {
-	background-image: url("images/bath.png");
+	background-image: url("web_static\images\bath.png");
 	background-repeat: no-repeat;
 }
 .number_bedrooms {
-	background-image: url("images/bed.png");
+	background-image: url("web_static\images\bed.png");
 	background-repeat: no-repeat;
 }
 .max_guest, .number_bathrooms, .number_bedrooms {
