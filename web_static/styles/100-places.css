@@ -70,3 +70,36 @@
 .max_guest, .number_bathrooms, .number_bedrooms {
 	display: flex
 }
+#div1 .amenities, #div2 .amenities, #div3 .amenities {
+	margin-top: 40px;
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	list-style: none;
+}
+.reviews h2 {
+	font-size: 16px;
+}
+.amenities h2 {
+	font-size: 16px;
+}
+.reviews h3 {
+	font-size: 14px;
+}
+.comment {
+	font-size: 12px;
+}
+#div1 .amenities {
+	background-image: url("web_static\images\tv.png");
+	background-image: url("web_static\images\pets.png");
+	background-image: url("web_static\images\wifi.png");
+	background-repeat: no-repeat;
+}
+#div2 .amenities {
+	background-image: url("web_static\images\tv.png");
+	background-repeat: no-repeat;
+}
+#div3 .amenities {
+	background-image: url("web_static\images\tv.png");
+	background-image: url("web_static\images\wifi.png");
+	background-repeat: no-repeat;
+}
